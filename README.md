@@ -79,9 +79,9 @@ up committed to git.
 | `SPOT_COUNTS_FILE` | Where the per-aircraft spot counter is persisted (default `spot_counts.json`, next to the script) |
 | `LAST_NOTIFIED_FILE` | Where the per-aircraft, per-location notification cooldown is persisted (default `last_notified.json`, next to the script) |
 
-By default, `LOCATIONS` is set up for two slots (`LOCATION_1`, `LOCATION_2`).
-To watch more, add another `location_from_env("LOCATION_3", "...")` entry to
-the `LOCATIONS` list in `plane_tracker.py`.
+By default, `LOCATIONS` has a single slot (`LOCATION_1`). To watch more, add
+another `location_from_env("LOCATION_2", "...")` entry to the `LOCATIONS`
+list in `plane_tracker.py`.
 
 ## How it works
 

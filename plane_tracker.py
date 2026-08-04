@@ -52,10 +52,9 @@ def location_from_env(prefix, default_name):
     }
 
 
-# Add more entries here (LOCATION_3, LOCATION_4, ...) to watch additional spots.
+# Add more entries here (LOCATION_2, LOCATION_3, ...) to watch additional spots.
 LOCATIONS = [
     location_from_env("LOCATION_1", "Home"),
-    location_from_env("LOCATION_2", "Location 2"),
 ]
 
 # Set via the DISCORD_WEBHOOK_URL environment variable rather than editing this file,
